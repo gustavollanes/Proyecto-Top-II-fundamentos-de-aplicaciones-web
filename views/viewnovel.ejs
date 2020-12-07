@@ -1,0 +1,18 @@
+<%include header%>
+
+
+
+
+  <div class="card border-warning mb-3" style="max-width: 80rem;">
+    <% data.forEach(data => { %>
+    <div class="card-header"><%=data.title%></div>
+    <div class="card-body">
+      <h4 class="card-title"></h4>
+      <p class="card-text" style=" color: rgb(255, 255, 255); "><%=data.description%></p>
+    </div>
+    <%});%>
+  </div>
+
+
+
+<%include footer%>
